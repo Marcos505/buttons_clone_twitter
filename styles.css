@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+.buttons {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+#login {
+    width: 130px;
+    height: 30px;
+
+    outline: none; /*Remove a border of button*/
+    border-radius: 5rem;
+    border-width: 0.12rem;
+
+    background: white;
+    color: rgb(0, 132, 255);
+    border-color: rgb(0, 132, 255);
+
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+
+    cursor: pointer;
+}
+
+#login:hover{
+    background-color: whitesmoke;
+    /* color: blue;
+    border-color: blue; */
+}
+
+#localization {
+    width: 200px;
+    height: 40px;
+
+    color: white;
+    background: rgb(0, 132, 255);
+
+    outline: none; /*Remove a border of button*/
+    border-radius: 5rem;
+    border: none;
+
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+
+    cursor: pointer;
+}
+
+#localization:hover {
+    background:  rgb(3, 123, 235);
+}
+
+#singUp {
+    width: 200px;
+    height: 30px;
+
+    color: white;
+    background: rgb(0, 132, 255);
+
+    outline: none;
+    border-radius: 5rem;
+    border: none;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+
+    cursor: pointer;
+}
+
+#singUp:hover {
+    background:  rgb(3, 123, 235);
+}
